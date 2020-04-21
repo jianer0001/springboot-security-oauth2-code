@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>app-client</title>
+</head>
+<body>
+    你好，杨兴健！
+    <a href="http://localhost:8080/oauth/authorize?client_id=jianer&response_type=code&scope=all&redirect_uri=http://localhost:8082/index">
+        第三方登录
+    </a>
+    <h1 th:text="${msg}"></h1>
+</body>
+</html>
